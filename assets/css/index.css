@@ -8,7 +8,7 @@ body {
 }
 
 .nameandbackground {
-  background-color: goldenrod;
+  background-color: rgb(250, 219, 148);
   padding: 12px;
   font-weight: 900;
 }
