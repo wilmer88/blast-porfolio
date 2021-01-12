@@ -16,3 +16,13 @@ body {
 .row2 {
   background-color: gray;
 }
+
+#lala {
+  float: left;
+  text-align: justify;
+}
+
+img {
+  height: 300px;
+ 
+}
