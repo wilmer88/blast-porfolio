@@ -13,16 +13,47 @@ body {
   font-weight: 900;
 }
 
-.row2 {
-  background-color: gray;
+main {
+  margin-top: 200px;
+  background-color: aliceblue;
+  width: 750px;
+  margin-bottom: 0;
+  height: 1250px;
 }
-
-#lala {
-  float: left;
-  text-align: justify;
-}
-
 img {
-  height: 300px;
- 
+  float: left;
+  height: 250px;
+  margin: 10px;
+  width: 400;
+  margin-bottom: -20px;
+}
+p {
+  
+  margin: 10px;
+  font-size: 28px;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+h6 {
+  font-size: 33px;
+  margin: 20px;
+}
+
+h5 {
+  margin-left: 200px;
+  font-size: 35px;
+}
+header {
+  background-color: blanchedalmond;
+}
+
+#face {
+  font-size: 100px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
 }
