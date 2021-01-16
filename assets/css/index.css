@@ -8,7 +8,7 @@ body {
 }
 
 .nameandbackground {
-  background-color: rgb(250, 219, 148);
+  background-color: lightgray;
   padding: 12px;
   font-weight: 900;
 }
@@ -28,7 +28,6 @@ img {
   margin-bottom: -20px;
 }
 p {
-  
   margin: 10px;
   font-size: 28px;
 }
@@ -47,7 +46,7 @@ h5 {
   font-size: 35px;
 }
 header {
-  background-color: blanchedalmond;
+  background-color: lightgray;
 }
 
 #face {
