@@ -8,7 +8,7 @@ body {
 }
 
 .nameandbackground {
-  background-color: lightgray;
+  background-color:  rgba(0, 0, 255, 0.1);
   padding: 12px;
   font-weight: 900;
 }
@@ -18,7 +18,7 @@ main {
   background-color: aliceblue;
   width: 750px;
   margin-bottom: 0;
-  height: 1250px;
+  height: 950px;
 }
 img {
   float: left;
@@ -26,10 +26,11 @@ img {
   margin: 10px;
   width: 400;
   margin-bottom: -20px;
+  margin-right: 50px;
 }
 p {
   margin: 10px;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 h1 {
@@ -42,11 +43,10 @@ h6 {
 }
 
 h5 {
-  margin-left: 200px;
   font-size: 35px;
 }
 header {
-  background-color: lightgray;
+  background-color:  rgba(0, 0, 255, 0.1)
 }
 
 #face {
@@ -55,4 +55,60 @@ header {
 .fa-facebook {
   background: #3b5998;
   color: white;
+}
+
+aside {
+
+  background-color: aliceblue;
+  text-align: center;
+  margin-top: 300px;
+  height: 300px;
+}
+
+#face2 {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 2em;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+#cot {
+  border: 8px solid rgb(37, 88, 106);
+  margin-top: 100px;
+  text-align: center;
+background-color:  rgba(0, 0, 255, 0.1)
+}
+ #bottom{
+   height: 100px;
+   text-align: center;
+ };
+ .fixed-bottom navbar-light bg-light{
+  margin-left:auto;
+  margin-right: auto;
+   text-align: center;
+
+ }
+
+ #linky{
+   
+ }
+
+ .navbar-brand:hover {
+   
+  background-color:rgba(0, 0, 255, 0.1);
 }
