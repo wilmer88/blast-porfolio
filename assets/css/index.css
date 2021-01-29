@@ -1,146 +1,145 @@
+p {
+  margin: 10px;
+  font-size: 25px;
+};
 
-      
-      
-      
-      
+.row2 {
+  background-color: gray;
+}
+body {
+  /* background-color: maroon; */
+
+  background-color: gray;
+}
+
+.nameandbackground {
+  background-color:  rgba(0, 0, 255, 0.1);
+  padding: 12px;
+  font-weight: 900;
+}
+
+main {
+  margin-top: 150px;
+  background-color: aliceblue;
+  width: 750px;
+  margin-bottom: 0;
+  height: 950px;
+}
+img {
+  float: left;
+  height: 250px;
+  margin: 10px;
+  width: 400;
+  margin-bottom: -20px;
+  margin-right: 50px;
+};
+
+
+
+
+h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+h6 {
+  font-size: 33px;
+  margin: 20px;
+  
+}
+
+h5 {
+  font-size: 35px;
+}
+header {
+  background-color:  rgba(0, 0, 255, 0.1)
+}
+
+#face {
+  font-size: 100px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  border-radius: 10px;
+}
+
+aside {
+
+  background-color: aliceblue;
+  text-align: center;
+  margin-top: 300px;
+  height: 300px;
+  width: 100%;
+  float: none;
+}
+
+#face2 {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 2em;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 10px;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+#cot {
+  border: 8px solid rgb(37, 88, 106);
+  margin-top: 100px;
+  text-align: center;
+background-color:  rgba(0, 0, 255, 0.1)
+}
+ #bottom{
+   height: 100px;
+   text-align: center;
+ };
+ .fixed-bottom navbar-light bg-light{
+  margin-left:auto;
+  margin-right: auto;
+   text-align: center;
+
+ }
+
+ 
+
+ .navbar-brand:hover {
+  z-index: 5;
+  border-radius: 10px;
+  font-family: 'Cinzel', serif;
+   
+  background-color:rgba(0, 0, 255, 0.1);
+}
+#bro{
+  font-family: 'Cinzel', serif;}
     
+    #du{
+      font-family: 'Cinzel', serif;
 
-      .row2 {
-        background-color: gray;
-      }
-      body {
-        /* background-color: maroon; */
-      
-        background-color: gray;
-      }
-      
-      .nameandbackground {
-        background-color:  rgba(0, 0, 255, 0.1);
-        padding: 12px;
-        font-weight: 900;
-      }
-      
-      main {
-        margin-top: 150px;
-        background-color: aliceblue;
-        width: 750px;
-        margin-bottom: 0;
-        height: 950px;
-      }
-      img {
-        float: left;
-        height: 250px;
-        margin: 10px;
-        width: 400;
-        margin-bottom: -20px;
-        margin-right: 50px;
-      }
-      p {
-        margin: 10px;
-        font-size: 25px;
-      }
-      
-      h1 {
-        font-size: 50px;
-        margin: 20px;
-      }
-      h6 {
-        font-size: 33px;
-        margin: 20px;
-        
-      }
-      
-      h5 {
-        font-size: 35px;
-      }
-      header {
-        background-color:  rgba(0, 0, 255, 0.1)
-      }
-      
-      #face {
-        font-size: 100px;
-      }
-      .fa-facebook {
-        background: #3b5998;
-        color: white;
-        border-radius: 10px;
-      }
-      
-      aside {
-      
-        background-color: aliceblue;
-        text-align: center;
-        margin-top: 300px;
-        height: 300px;
-        width: 100%;
-        float: none;
-      }
-      
-      #face2 {
-        margin-top: 30px;
-        text-align: right;
-        font-size: 2em;
-      }
-      
-      .fa-linkedin {
-        background: #007bb5;
-        color: white;
-        border-radius: 10px;
-      }
-      
-      .fa-snapchat-ghost {
-        background: #fffc00;
-        color: white;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-      }
-      
-      .fa-android {
-        background: #a4c639;
-        color: white;
-      }
-      
-      #cot {
-        border: 8px solid rgb(37, 88, 106);
-        margin-top: 100px;
-        text-align: center;
-      background-color:  rgba(0, 0, 255, 0.1)
-      }
-       #bottom{
-         height: 100px;
-         text-align: center;
-       };
-       .fixed-bottom navbar-light bg-light{
-        margin-left:auto;
-        margin-right: auto;
-         text-align: center;
-      
-       }
-      
-       
-      
-       .navbar-brand:hover {
-        z-index: 5;
-        border-radius: 10px;
-        font-family: 'Cinzel', serif;
-         
-        background-color:rgba(0, 0, 255, 0.1);
-      }
-      #bro{
-        font-family: 'Cinzel', serif;}
-          
-          #du{
-            font-family: 'Cinzel', serif;
-      
-          }
-      
-          img:hover{
-            display: block;
-            z-index: 100;
-            opacity: 0.8;
-          }
+    }
 
-
-   #call {
-      margin-top: 10%;
+    img:hover{
+      display: block;
+      z-index: 100;
       opacity: 0.8;
     }
+
+
+#call {
+margin-top: 10%;
+opacity: 0.8;
+};
+
+
