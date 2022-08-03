@@ -8,8 +8,12 @@ p:hover {
   transform: scale(1.02);
 }
 p {
+  position: relative;
   margin: 10px;
   font-size: 18px;
+ font-weight: 500;
+  
+  /* font-weight: 400; */
 }
 row2 {
   background-color: gray;
@@ -22,16 +26,26 @@ row2 {
   font-weight: 900;
 }
 
-main {
+.mero {  
+  position: relative; 
   margin-top: 50px;
-  background-color: rgb(132, 157, 180);
+  /* background :rgba(0, 151, 19, 0.1); */
+  background-color: rgb(132, 157, 180, 0.9);
   /* width: 750px; */
   margin-bottom: 0;
   /* height: 980px; */
   /* border: 4px solid rgb(1, 2, 5); */
   padding: 10px;
-  box-shadow: 5px 3px 2px 4px #525967;
+  box-shadow: 3px 3px 2px 2px #181a1c;
+
+  align-items: center;
+  justify-content: center;
+
 }
+
+
+
+
 
 
 img {
@@ -41,9 +55,10 @@ img {
   /* width: 350px; */
   margin-bottom: 0px;
   margin-right: 13px;
-  opacity: 0.8;
+  opacity: 1;
   border-radius: 15%;
   border: 5px #2e313a;
+  z-index: 2;
 }
 h1 {
   font-size: 50px;
@@ -70,10 +85,10 @@ aside:hover {
   transform: scale(1.11);
 }
 aside {
- 
+  opacity: 0.9;
   background-image: url("../css/images/back.png");
   box-shadow: 5px 6px 5px 8px #2e313a;
-  /* background-color: aliceblue; */
+  background-color:rgba(0, 0, 0, 0.5);
   text-align: center;
   margin-top: 100px;
   height: 300px;
@@ -84,6 +99,7 @@ aside {
 }
 
 #face22 {
+  opacity: 1;
   background: #007bb5;
   transform: 1.07 !important;
   border: 3px solid rgb(19, 26, 39);
@@ -172,8 +188,9 @@ h6:hover {
 img:hover {
   display: block;
   /* z-index: 100; */
-  opacity: 1;
+   opacity: 1 !important;
   transform: scale(1.1);
+ 
 }
 #call {
   margin-top: 5%;
@@ -189,4 +206,16 @@ img:hover {
 }
 #tope{
   background-color: #576a78;
+}
+body{
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../css/images/backk.jpg");
+  image-resolution: from-image 300dpi;
 }
