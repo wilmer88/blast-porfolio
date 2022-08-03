@@ -1,7 +1,7 @@
 /* #asi{
 } */
 nav{
-  background-color: #007bb5;
+  background-color: #90a8b3;
 }
 p:hover {
   /* text-decoration: underline; */
@@ -83,7 +83,17 @@ aside {
   background-size: 300px 80%;
 }
 
+#face22 {
+  background: #007bb5;
+  transform: 1.07 !important;
+  border: 3px solid rgb(19, 26, 39);
+  margin-top: 20px;
+  text-align: right;
+  font-size: 2.8em;
+}
+  
 #face2 {
+ 
   transform: 1.07 !important;
   border: 3px solid rgb(19, 26, 39);
   margin-top: 20px;
@@ -176,4 +186,7 @@ img:hover {
 
 #tope:hover{
   background-color: #e3f2fd;
+}
+#tope{
+  background-color: #576a78;
 }
