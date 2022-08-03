@@ -1,12 +1,15 @@
 /* #asi{
 } */
+nav{
+  background-color: #007bb5;
+}
 p:hover {
   /* text-decoration: underline; */
   transform: scale(1.02);
 }
 p {
   margin: 10px;
-  font-size: 25px;
+  font-size: 18px;
 }
 row2 {
   background-color: gray;
@@ -33,9 +36,9 @@ main {
 
 img {
   float: left;
-  height: 250px;
+  height: 12em;
   margin: 10px;
-  width: 400;
+  /* width: 350px; */
   margin-bottom: 0px;
   margin-right: 13px;
   opacity: 0.8;
@@ -45,6 +48,7 @@ img {
 h1 {
   font-size: 50px;
   margin: 20px;
+  text-align: center;
 }
 h6 {
   font-size: 33px;
@@ -137,7 +141,7 @@ aside {
 } 
 
 #bro {
- font-size: 2.5rem ;
+ font-size: 1.8rem ;
  /* font-weight: ab; */
 }
 /* 
