@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // $(window).on('load', function() {
-  //     $('#intro').modal('show');
-  // });
+  $(window).on('load', function() {
+      $('#intro').modal('show');
+  });
 });
