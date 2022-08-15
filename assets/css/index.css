@@ -80,9 +80,9 @@ h5 {
   border-radius: 10px;
 }
 
-aside:hover {
+/* aside:hover {
   transform: scale(1.11);
-}
+} */
 aside {
   opacity: 0.9;
   background-image: url("../css/images/back.png");
@@ -182,9 +182,9 @@ h6:hover {
   text-align: center;
 }
 
-header:hover {
+/* header:hover {
   transform: scale(1.02);
-}
+} */
 
 img:hover {
   /* display: block; */
