@@ -13,13 +13,14 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link herf="portfolio.css" type="text/css" href="floats.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
+
 
   </head>
  
   <body>
-    <nav class="navbar sticky-top navbar-light bg-light">
-      <a class="navbar-brand" href="#">Wilmer Rivera</a>
+    <nav id="folioNav" class="navbar sticky-top">
+      <div class="navbar-brand">Portfolio</div>
 
       <!--one float right was not enough-->
       <div class="float-right"></div><br>
@@ -27,31 +28,32 @@
       <div class="float-right"></div><br>
       <a class="nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
       <a class="nav-link active text-right" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-      <a class="nav-link active text-right" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+      <!-- <a class="nav-link active text-right" href="contact.html">Contact <span class="sr-only">(current)</span></a> -->
   </nav>
 
 
-  <section class="container-fluid">
-    <section class="row bg-dark">
-        <section class="offset-md-1 col-md-5 bg-light mt-5">
-            
-            <h1>Portfolio</h1> 
-<!-- left all div for layout purposes, each row is a card from bootstrap-->
-            <section class="row row-cols-1 row-cols-md-2">
-              <div class="col mb-4">
+  <div class="container-fluid">
+    <div class="row bg-dark ">
+        <section class=" d-grid gap-3">
+
+            <div class="container-fluid">
+              <div class="col-lg-11 mb-4">
                 <div class="card">
-                  <img src="assets/css/images/eat.png" class="card-img-top" alt="pic of gt project">
+                  <img src="assets/css/images/taco1.png" class="card-img-top" alt="pic of gt project">
                   <div class="card-body">
-                    <h5 class="card-title"></h5>
-                   
-                   
+                    <h5 class="card-title">taco stand</h5>
                     <p class="card-text"> jquery, javascript, NYtimes API applicatinob to challange my self and creating my own style in coding
                        and archattic style also including best parctices readability </p>
-                    <a href = "https://wilmer88.github.io/newsApi/">github code</a>
+                    <!-- <a href = "https://wilmer88.github.io/newsApi/">github code</a> -->
+                    <!-- <a href = "https://wilmer88.github.io/newsApi/">github code</a> -->
+                    <a href = "https://github.com/wilmer88/vegeta-picks-random">github code</a>
                   </div>
                 </div>
               </div>
-              <div class="col mb-4">
+            </div>
+
+            <div class="container-fluid">
+              <div class="col-lg-11 mb-4">
                 <div class="card">
                   <img src=assets/css/images/gen.png class="card-img-top" alt="pic of gt project">
                   <div class="card-body">
@@ -61,45 +63,61 @@
                   </div>
                 </div>
               </div>
-
-              <div class="col mb-4">
+            </div>
+            
+            <div class="container-fluid">
+              <div class="col-lg-11 mb-4">
                 <div class="card">
                   <img src=assets/css/images/kid.png class="card-img-top" alt="projecet2">
                   <div class="card-body">
-                    <h5 class="card-title"></h5>
+                    <h5 class="card-title">Taco Stand</h5>
                     <p class="card-text">My first group project</p>
                     <a href = "https://github.com/LNoeltner1/Group-Project-1">github code</a>
                   </div>
                 </div>
               </div>
-              <div class="col mb-4">
-                <div class="card">
-                  <img src= assets/css/images/basic_card.png class="card-img-top" alt="project one">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Basic contact card  my first cantact page.</p>
-                    <a href = "">code not available</a>
+            </div>
+             
+
+              <div class="container-fluid">
+                <div class="col-lg-11 mb-4">
+                  <div class="card">
+                    <img src= assets/css/images/basic_card.png class="card-img-top" alt="project one">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text">Basic contact card  my first cantact page.</p>
+                      <a href = "">code not available</a>
+                    </div>
                   </div>
                 </div>
               </div>
               
-              <div class="col mb-4">
-                <div class="card">
-                  <img src="assets/css/images/technique.png" class="card-img-top" alt="pic of gt project">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Project using react and mongo db</p>
-                    <a href = "https://github.com/wilmer88/project-3-onthere">github code</a>
+              
+              <div class="container-fluid">
+                <div class="col-lg-11 mb-4">
+                  <div class="card">
+                    <img src="assets/css/images/technique.png" class="card-img-top" alt="pic of gt project">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text">Project using react and mongo db</p>
+                      <a href = "https://github.com/wilmer88/project-3-onthere">github code</a>
+                    </div>
                   </div>
                 </div>
+            
+
               </div>
-          
+     
             
         
-        
-        <footer class="navbar fixed-bottom navbar-light bg-light">
-          <a class="navbar-brand" href="#"></a>
+            </section>
+          </div>
+        </div>
+           <footer class="navbar bg-light ">
+          <div class="navbar-brand" href="#">Wilmer Rivera</div>
         </footer>
-      </section>
+     
+
+
   </body>
 </html>
