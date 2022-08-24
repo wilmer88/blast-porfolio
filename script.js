@@ -1,6 +1,12 @@
 
   $(window).on('load', function() {
    
-      $('#intro').modal('show');
+    $('#intro').modal('show');
+   
+
+
+      
+
+
    
   });
