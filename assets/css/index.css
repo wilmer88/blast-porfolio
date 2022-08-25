@@ -4,11 +4,11 @@
 nav{
   background-color: #90a8b3;
 }
-p:hover {
+/* p:hover {
   text-decoration: underline; 
   font-weight: 600;
   transform: scale(1.02); 
-} 
+}  */
 p {
   
   position: relative;
