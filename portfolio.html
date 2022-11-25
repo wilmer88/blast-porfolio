@@ -24,26 +24,28 @@
   </head>
 
   <body>
-    <nav id="folioNav" class="navbar sticky-top">
-      <div class="navbar-brand">Portfolio</div>
+    <div class="fixed-top">
+      <nav id="folioNav" class="navbar sticky-top">
+        <div class="navbar-brand">Portfolio</div>
+  
+        <!--one float right was not enough-->
+        <div class="float-right"></div>
+        <br />
+        <div class="float-right"></div>
+        <br />
+        <div class="float-right"></div>
+        <br />
+       <a href="index.html"><button class="btn btn-link"
+        >About <span class="sr-only">(current)</span></button></a> 
+        <a href="portfolio.html"><button id="navegationLink" class="btn btn-link" 
+          >Portfolio <span class="sr-only">(current)</span></button
+        ></a>
+        <!-- <a class="nav-link active text-right" href="contact.html">Contact <span class="sr-only">(current)</span></a> -->
+      </nav>
+    </div>
 
-      <!--one float right was not enough-->
-      <div class="float-right"></div>
-      <br />
-      <div class="float-right"></div>
-      <br />
-      <div class="float-right"></div>
-      <br />
-      <a class="nav-link active" href="index.html"
-        >About <span class="sr-only">(current)</span></a
-      >
-      <a class="nav-link active text-right" href="portfolio.html"
-        >Portfolio <span class="sr-only">(current)</span></a
-      >
-      <!-- <a class="nav-link active text-right" href="contact.html">Contact <span class="sr-only">(current)</span></a> -->
-    </nav>
 
-    <div class="container-fluid">
+    <div id="firstdiv"  class="container-fluid">
       <div class="row bg-dark">
         <section class="d-grid gap-3">
           <div class="container-fluid">
@@ -490,7 +492,8 @@
       </div>
     </div>
     <footer class="navbar bg-light">
-      <a class="nav-link active" href="index.html">Wilmer Rivera</a>
+  
+      <a class="nav-link active" href="index.html">    <h6><span class="badge bg-secondary">Wilmer Rivera</span></h6></a>
     </footer>
   </body>
 </html>

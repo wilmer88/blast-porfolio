@@ -1,9 +1,18 @@
-nav{
-  background-color: #90a8b3;
-  
-}
+#folioNav{
+  background-color: #cedee4;
+
+};
+
 
 .card{
   margin-left: 10px;
   margin-top: 10px;
+};
+
+#navegationLink{
+  background-color: rgb(236, 9, 9);
+
+}
+#firstdiv{
+ margin-top: 60px;
 }
