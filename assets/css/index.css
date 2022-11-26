@@ -223,6 +223,8 @@ img:hover {
 }
 #tope{
   background-color: #bbd8ec;
+  outline: none;
+  box-shadow: none;
 }
 body{
   width: 100%;
