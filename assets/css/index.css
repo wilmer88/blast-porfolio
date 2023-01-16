@@ -1,8 +1,12 @@
-/* #asi{
-} */
+#asi{
+  margin-bottom: 50px;
+}
+
+html { height: 100% }
+body { min-height: 100% }
 
 #indexnav{
-  background-color: #cedee4;
+  background-color: transparent;
 }
 /* p:hover {
   text-decoration: underline; 
@@ -133,6 +137,17 @@ aside {
 .fa-android {
   background: #a4c639;
   color: white;
+
+}
+#droid{
+  font-size: 2.8em;
+  margin-top: 20px;
+}
+#droid:hover{
+  background: transparent !important;
+  color: #a4c639;
+
+ 
 }
 
 #face22:hover{
@@ -140,6 +155,7 @@ aside {
 }
 #face2:hover{
   background: transparent !important;
+  color: #fffc00;
 }
 .fa-linkedin:hover{
   background: transparent !important;
@@ -159,15 +175,24 @@ aside {
   transform: scale(1.05);
   background-color: rgba(61, 61, 95, 0.1);
 } */
+#footer{
+max-width: auto;
 
-#bottom {
-  margin-bottom: -1%;
+}
+
+.footer {
+  position:-webkit-sticky;
+  position: sticky;
   transform: 1.07 !important;
-  height: 100px;
+  margin: auto;
   text-align: center;
   font-family: "Cinzel", serif;
+  width: 100%;
+  margin-top: auto;
+  /* height: 100px; */
 
- 
+
+  /* height: 100px; */
 }
 .navbar bg-light {
   margin-left: auto;
@@ -210,7 +235,9 @@ img:hover {
  
 }
 #call {
-  margin-top: 5%;
+  /* position:bottom;
+  bottom: 0; */
+
   transform: 1.07 !important;
   /* font-weight: bold; */
 }
@@ -220,11 +247,14 @@ img:hover {
 
 
 #tope:hover{
-  background-color: #e3f2fd;
+  background-color: #bbd8ec;
+ 
+
   
 }
 #tope{
-  background-color: #bbd8ec;
+ background-color: #e3f2fd;
+
   outline: none;
   box-shadow: none;
 }
@@ -247,4 +277,5 @@ body{
 
 #demi{
   margin-top: 2em;
+
 }
