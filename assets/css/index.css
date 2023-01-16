@@ -2,8 +2,8 @@
   margin-bottom: 50px;
 }
 
-html { height: 100% }
-body { min-height: 100% }
+/* html { height: 100% }
+body { min-height: 100% } */
 
 #indexnav{
   background-color: transparent;
@@ -47,6 +47,8 @@ row2 {
 
   align-items: center;
   justify-content: center;
+  margin-bottom: 4em;
+
 
 }
 
@@ -177,7 +179,7 @@ aside {
 } */
 #footer{
 max-width: auto;
-
+margin-top: 20px;
 }
 
 .footer {
@@ -188,7 +190,7 @@ max-width: auto;
   text-align: center;
   font-family: "Cinzel", serif;
   width: 100%;
-  margin-top: auto;
+  
   /* height: 100px; */
 
 
@@ -267,8 +269,11 @@ body{
 
   image-rendering: -webkit-optimize-contrast;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover ;
+  
+
   background-image: url("../css/images/backk.jpg");
+  
   image-resolution: from-image 300dpi;
   background-position: center center;
   display: block;
@@ -277,5 +282,6 @@ body{
 
 #demi{
   margin-top: 2em;
+  margin-bottom: 2em;
 
 }
