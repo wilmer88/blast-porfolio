@@ -49,8 +49,8 @@ row2 {
   justify-content: center;
   margin-bottom: 4em;
   /* height: inherit; */
-  min-height: max-content;
-  height: max-content;
+  /* min-height: max-content;
+  height: max-content; */
 
 
 }
@@ -244,8 +244,10 @@ img:hover {
  
 }
 #call {
+  font-weight: 200;
   /* position:bottom;
   bottom: 0; */
+  height: 56px;
 
   transform: 1.07 !important;
   /* font-weight: bold; */
@@ -290,7 +292,7 @@ body{
 #demi{
   margin-top: 2em;
   margin-bottom: 6em;
-  height: max-content;
-  height: 100%;
+  /* height: max-content;
+  height: 100%; */
 
 }
