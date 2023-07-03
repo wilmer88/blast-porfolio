@@ -96,7 +96,7 @@ h5 {
 } */
 aside {
   opacity: 0.9;
-  background-image: url("../css/images/back.png");
+  background-image: url("../images/back.png");
   box-shadow: 5px 6px 5px 8px #2e313a;
   background-color:rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -281,7 +281,7 @@ body{
   background-size: cover ;
   
 
-  background-image: url("../css/images/backk.jpg");
+  background-image: url("../images/backk.jpg");
   
   image-resolution: from-image 300dpi;
   background-position: center center;
